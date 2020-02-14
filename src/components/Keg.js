@@ -12,10 +12,10 @@ function Keg(props) {
   )
 }
 
-Month.propTypes = {
+Keg.propTypes = {
   name: PropTypes.string.isRequired,
   brand: PropTypes.string.isRequired,
-  price: PropTypes.int.isRequired,
+  price: PropTypes.string.isRequired,
   alcoholContent: PropTypes.string.isRequired
 };
 
